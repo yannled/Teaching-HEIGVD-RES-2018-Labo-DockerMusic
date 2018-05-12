@@ -1,0 +1,11 @@
+FROM node:9.9.0-alpine
+
+ADD src /opt/src
+
+ADD data /opt/data
+
+WORKDIR /opt/src
+
+ENTRYPOINT ["node","client.js"]
+ 
+

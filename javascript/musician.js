@@ -53,3 +53,4 @@ function musician(instrument) {
 var instrument = process.argv[2];
 
 var m1 = new musician(instrument);
+m1.update();
